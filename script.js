@@ -39,7 +39,7 @@ function multiplicacion(){
 function division(){
     let numero1 = capturaNumeroUno();
     let numero2 = capturaNumeroDos();
-    let division = Number(numero1.value) / Number(numero2.value);
+    let division = numero1 / numero2;
     document.getElementById("resultado").innerHTML = `<div class="alert alert-success" id="resultado" role="alert">
     ${division}              
 </div>`;
